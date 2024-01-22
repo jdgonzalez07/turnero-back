@@ -1,0 +1,28 @@
+{
+  "name": "turnero-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdgonzalez07"
+  },
+  "author": "Juan Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdgonzalez07/turnero-back/issues"
+  },
+  "homepage": "https://github.com/jdgonzalez07/turnero-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.2"
+  }
+}
